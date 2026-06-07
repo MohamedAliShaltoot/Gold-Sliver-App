@@ -10,4 +10,6 @@ class AppStrings {
 
   // screen titles
   static const String homeTitle = 'Home';
+  static const String goldTitle = 'Gold Prices';
+  static const String silverTitle = 'Silver Prices';
 }

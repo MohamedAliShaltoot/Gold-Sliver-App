@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:gold_salver_prices/core/constants/app_strings.dart';
+import 'package:gold_salver_prices/core/networking/dio_helper.dart';
 import 'package:gold_salver_prices/core/routing/app_router.dart';
 import 'package:gold_salver_prices/core/routing/routes.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await DioHelper.init();
   runApp(const GoldSalverPricesApp());
 }
 
