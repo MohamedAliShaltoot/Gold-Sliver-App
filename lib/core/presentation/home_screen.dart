@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
           CustomButton(
             text: AppStrings.goldBtn,
             onPressed: () {
-              Navigator.pushNamed(context, AppRoutes.goldScreen,arguments: "Hello from HomeScreen");
+              Navigator.pushNamed(context, AppRoutes.goldScreen);
             },
             btnBackgroundColor: AppColors.goldColor,
           ),
@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
           CustomButton(
             text: AppStrings.silverBtn,
             onPressed: () {
-              Navigator.pushNamed(context, AppRoutes.silverScreen,arguments: "Hello from HomeScreen");
+              Navigator.pushNamed(context, AppRoutes.silverScreen);
             },
             btnBackgroundColor: AppColors.silverColor,
           ),
